@@ -31,3 +31,9 @@ header div.container div.row div>img{
 .contatti{
     background-color: #3a546d;
 }
+
+.star>div{
+    height: 3px;
+    background-color: white;
+    width: 10%;
+}

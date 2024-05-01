@@ -9,6 +9,20 @@
 </head>
 <body>
     <header>
+        <nav>
+            <div class="container ">
+                <div class="row d-flex justify-content-around align-items-center py-3">
+                    <div class="col-6">
+                        <h1 class="fs-3 fw-bold">START BOOTSTRAP</h1>
+                    </div>
+                    <div class="col-6 d-flex justify-content-end ">
+                        <h2 class="px-3 fs-5 fw-bold">PORTFOLIO</h2>
+                        <h2 class="px-3 fs-5 fw-bold" >ABOUT</h2>
+                        <h2 class="px-3 fs-5 fw-bold" >CONTACT</h2>
+                    </div>
+                </div>
+            </div>
+        </nav>
         <div class="container">
             <div class="row d-flex justify-content-center flex-column text-center">
                 <div class="col-12">
@@ -75,19 +89,27 @@
                     <h1>titolo</h1>
                     <p>stellina</p>
                 </div>
-                <div class="col-12">
-                    <form action="index.html">
-                        <label for="fname">Name</label><br>
-                        <input type="text" id="fname" name="fname"><br>
-                        <label for="email">Email Address</label><br>
-                        <input type="email" id="email" name="email"><br>
-                        <label for="number">Number</label><br>
-                        <input type="text" id="number" name="number"><br>
-                        <label for="message">Message</label><br>
-                        <input type="textarea" class="h" id="textarea" name="textarea"><br>
-                        <input type="submit" value="Send">
-                    </form> 
-                </div>                  
+                <form>
+                    <div class="col-12 d-flex flex-column w-25 mb-3">
+                        <label for="fname">Name</label>
+                        <input type="text" id="fname" name="fname">
+                    </div>    
+                    <div class="col-12 d-flex flex-column w-25 mb-3">
+                        <label for="email">Email Address</label>
+                        <input type="Email" id="email" name="email">
+                    </div>  
+                    <div class="col-12 d-flex flex-column w-25 mb-3">
+                        <label for="Number">Number</label>
+                        <input type="text" id="Number" name="Number">
+                    </div>    
+                    <div class="col-12 d-flex flex-column w-25 h-50 mb-3">
+                        <label for="Message">Message</label>
+                        <input type="textarea" id="Message" name="Message">
+                    </div>                   
+                    <div class="col-12 d-flex flex-column w-25 mb-3">
+                        <input type="submit" id="submit" name="submit" value="Send">
+                    </div> 
+                </form>
             </div>
         </div>
     </main>

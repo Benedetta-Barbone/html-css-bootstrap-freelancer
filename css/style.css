@@ -34,6 +34,21 @@ header div.container div.row div>img{
 
 .star>div{
     height: 3px;
-    background-color: white;
     width: 10%;
+}
+
+.white{
+   background-color: white;
+}
+
+.black{
+    background-color: black;
+}
+
+.btn-download{
+    background-color: #1abc9c;
+    border-radius: 10px;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: solid white ;
 }

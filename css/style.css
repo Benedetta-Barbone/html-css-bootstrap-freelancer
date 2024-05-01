@@ -4,5 +4,12 @@ header{
 }
 
 header div.container div.row div>img{
-    width: %;
+    width: 20%;
+}
+
+.download{
+    max-width: 100%;
+    padding: 0;
+    background-color: #1abc9c;
+    color: white;
 }
